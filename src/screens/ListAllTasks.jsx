@@ -20,7 +20,8 @@ export default function ListAllTasks({ navigation }) {
   }, []);
 
   useEffect(() => {
-    const q = query(collection(db, "tarefas"));
+    const tarefasRef = collection(db, "tarefas");
+    const q = query(tarefasRef);
     const unsubscribe = onSnapshot(q, (querySnapshot) => {
       const tasks = [];
       querySnapshot.forEach((doc) => {

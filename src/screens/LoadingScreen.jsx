@@ -20,15 +20,8 @@ export default function LoadingScreen({ navigation }) {
         >
             <ActivityIndicator
                 size={50}
-
             />
             <Text>  Carregando...</Text>
-            {assets &&
-                <Image
-                    source={assets[0]}
-                    style={{ width: 200, height: 200 }}
-                    resizeMode="contain"
-                />}
         </View>
     )
 }

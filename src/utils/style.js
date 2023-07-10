@@ -7,6 +7,7 @@ export const styles = StyleSheet.create({
         alignItems: "center",
         justifyContent: "center",
         padding: 20,
+        backgroundColor: "#212529",
     },
     text: {
         fontSize: 20,
@@ -14,6 +15,7 @@ export const styles = StyleSheet.create({
     },
     selfFullWidth: {
         alignSelf: "stretch",
+        backgroundColor: "#343A40",
     },
     rightButton: {
         width: 50,
@@ -24,6 +26,15 @@ export const styles = StyleSheet.create({
     },
     divider: {
         height: 10,
-    }
+    },
+
+    title: {
+        marginBottom: 100,
+    },
+
+    tab: {
+        backgroundColor: "#212529",
+    },
+
 
 })
